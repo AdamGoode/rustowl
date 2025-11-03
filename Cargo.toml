@@ -18,7 +18,7 @@ log = "0.4"
 simple_logger = { version = "5", features = ["stderr"] }
 tokio = { version = "1", features = ["rt", "rt-multi-thread", "macros", "sync", "time", "io-std", "io-util", "process", "fs"] }
 tower-lsp = "0.20"
-process_alive = "0.1"
+process_alive = "0.2"
 cargo_metadata = "0.21"
 uuid = { version = "1", features = ["v4"] }
 clap = { version = "4", features = ["cargo", "derive"] }
